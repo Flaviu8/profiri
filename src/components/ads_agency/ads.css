@@ -1,0 +1,77 @@
+.ads-main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.container {
+    display: flex;
+  
+}
+
+.container-ads {
+    background-color: #FEF2E1;
+    width: 500px;
+    margin-right: 28px;
+    margin-top: 22px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px black;
+}
+
+.container-ads h5 {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 28px;
+    background-color: transparent;
+}
+
+.container-ads img {
+    width: 500px;
+    margin-top: 18px;
+}
+.container-ads p {
+    background-color: transparent;
+    font-size: 22px;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 1028px) {
+    .ads-main {
+        width: 100%;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .container-ads {
+        width: 98%;
+    }
+
+    .container-ads img {
+        width: 100%;
+    }
+       
+     }
+
+@media screen and (max-width: 768px) {
+    .ads-main {
+        width: 100%;
+    }
+    
+    .container {
+        display: block;
+    }
+
+    .container-ads {
+        width: 98%;
+    }
+
+    .container-ads img {
+        width: 100%;
+    }
+       
+     }

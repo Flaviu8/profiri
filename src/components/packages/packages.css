@@ -1,0 +1,118 @@
+.packages {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.prices {
+    background-color: #FFF1E1;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 2px black;
+    border-radius: 8px;
+    margin-right: 18px;
+  
+}
+
+
+.prices h6 {
+    background-color: transparent;
+    font-size: 44px;
+    color: red;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.prices p {
+    text-align: center;
+    background-color: transparent;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.prices li  {
+    background-color: #FFF1E1;
+   margin-left: 30px;
+   font-weight: 600;
+   font-size: 20px;
+   margin-top: 8px;
+}
+
+
+.prices p:nth-of-type(2) {
+    font-size: 24px;
+ font-weight: 600;
+}
+
+.buttons {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+
+.prices button {
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FDC53D;
+    cursor: pointer;
+}
+
+
+.second {
+    margin-top: 70px;
+}
+
+
+.first {
+    margin-top: 70px;
+}
+
+.prices button:hover {
+    box-shadow: 0px 2px 2px black;
+    background-color: #fcd87f;
+    transition: 0.5s;
+
+}
+
+@media screen and (max-width: 1028px) {
+    .packages {
+        width: 98%;
+    }
+
+    .flex-box {
+        display: block;
+    }
+
+    .prices {
+        width: 50%;
+        margin: auto;
+        margin-top: 18px;
+    }
+           
+}
+
+@media screen and (max-width: 768px) {
+    .packages {
+        width: 98%;
+    }
+
+    .flex-box {
+        display: block;
+    }
+
+    .prices {
+        width: 88%;
+        margin: auto;
+        margin-top: 18px;
+    }
+           
+}
