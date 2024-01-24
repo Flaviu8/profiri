@@ -7,8 +7,16 @@ import instagram from "../../assets/instagram.svg"
 import twitter from "../../assets/twitterx.svg"
 import { NavLink } from 'react-router-dom'
 
+import { useForm, ValidationError } from '@formspree/react';
+
+ 
 
 export default function Footer() {
+    const [state, handleSubmit] = useForm("xleqgnkb");
+
+    let message = "Vă mulțumim pentru subscribe!"
+    
+
   return (
     <div>
         <div className='line'></div>
@@ -16,15 +24,21 @@ export default function Footer() {
                 <div className='title'>
                     <h3>Abonează-te</h3>
                     <p>Abonează-te să aflii cele mai noi servicii sau oferte.</p>
-                    <form>
-                        <label>Email* </label>
-                        <input type="email" />
+                    <form onSubmit={handleSubmit}>
+                        <label htmlFor="email">Email* </label>
+                        <input id="email"
+                                type="email" 
+                                name="email" />
+                                 <ValidationError 
+                                    prefix="Email" 
+                                    field="email"
+                                    errors={state.errors}
+                                />
+                    <button  type="submit" disabled={state.submitting}>Abonare</button>
+                    <div className='success'>
+                      {state.succeeded ? <p>{message}</p> : ''}
+                    </div>
                     </form>
-                    <div className='send'>
-                    <div className='button-contact'>
-                        <button>Abonare</button>
-                    </div>
-                    </div>
                 </div>
                 <div className='footer-content'>
                     <div className='links'>
