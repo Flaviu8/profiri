@@ -1,11 +1,8 @@
-import Navigation from "../navbar/Navigation.jsx"
 import './header.css'
-// import design from '../../assets/design.jpg'
 
 export default function Header() {
   return (
     <div>
-      <Navigation />
       <div className="header-main">
         <div className="header-image">
             <div className="colors">

@@ -11,7 +11,7 @@ export default function Navigation() {
             </div>
             <div className='nav-link'>
               <NavLink className='underline' to="/">Acasă</NavLink>
-              <NavLink className='underline' to="/">Cerere de ofertă</NavLink>
+              <NavLink className='underline' to="/order">Cerere de ofertă</NavLink>
             </div>
         </div>
     </div>

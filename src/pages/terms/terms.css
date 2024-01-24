@@ -1,0 +1,12 @@
+.terms {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.terms h1 {
+    font-size: 26px;
+}
+
+.terms p {
+    margin-top: 20px;
+}

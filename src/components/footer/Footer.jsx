@@ -29,9 +29,9 @@ export default function Footer() {
                 <div className='footer-content'>
                     <div className='links'>
                         <h3>Linkuri utile</h3>
-                        <NavLink href="/termeni">Termeni și condiții</NavLink>
-                        <NavLink href="/termeni">SOL</NavLink>
-                        <NavLink href="/termeni">ANPC</NavLink>
+                        <NavLink to="/termeni">Termeni și condiții</NavLink>
+                        <NavLink to="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO">SOL</NavLink>
+                        <NavLink to="https://anpc.ro/ce-este-sal/">ANPC</NavLink>
                     </div>
                         <div className='social-links'>
                             <h3>Social media</h3>
