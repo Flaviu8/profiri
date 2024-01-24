@@ -140,7 +140,9 @@ form input:nth-of-type(3) {
     .pro {
         margin-top: 16px;
     }
-
+    form input:nth-of-type(3) {
+        width: 132px;
+    }
   
            
 }

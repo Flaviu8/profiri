@@ -120,6 +120,7 @@
         margin-top: 26px;
         cursor: pointer;
         margin-bottom: 24px;
+        color: black;
     }
 
     .colors-after button:hover {
