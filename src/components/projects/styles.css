@@ -1,8 +1,8 @@
 .swiper {
-  width: 90%;
+  max-width: 100%;
   height: 600px;
-  margin-top: 20px;
-  background-color: #FFF1E1;
+  padding-bottom: 20px;
+  background-color: #ffffff;
 }
 
 .title {
@@ -12,7 +12,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background-color: #FFF1E1;
+  background-color: #ffffff;
 
   /* Center slide text vertically */
   display: flex;
@@ -63,21 +63,23 @@
 .projects {
   max-width: 1200px;
   margin: auto;
-  background-color: #FFF1E1;
+  background-color: #ffffff;
   border-radius: 8px;
   margin-bottom: 30px;
 }
 
 .swiper-button-prev {
   background-color: transparent;
+  color: #FFF1E1;
 }
 
 .swiper-button-next {
   background-color: transparent;
+  color: #FFF1E1;
 }
 
 .swiper-pagination-bullets {
-  background-color: #FFF1E1;
+  background-color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {

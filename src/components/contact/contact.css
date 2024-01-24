@@ -87,7 +87,7 @@ form input:nth-of-type(3) {
 }
 
 .contact-form input {
-    width: 30px;
+    width: 40px;
     margin-top: 14px;
 }
 
@@ -133,7 +133,11 @@ form input:nth-of-type(3) {
     }
 
     .contact-form input {
-        width: 80px;
+        width: 40px;
+    }
+
+    .contact-form {
+        width: 300px;
     }
 
 
