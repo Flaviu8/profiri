@@ -24,7 +24,7 @@ export default function Contact() {
             id="subscribeNews"
             name="subscribe"
             value="newsletter" />
-            <label to="subscribeNews">Abonează-te pentru a afla cele mai noi promoții și oferte.</label>
+            <p>Abonează-te pentru a afla cele mai noi promoții și oferte.</p>
          </form>
          <div className='button-contact'>
                 <button>Trimite</button>

@@ -99,5 +99,13 @@ footer  {
     footer {
         width: 98%;
     }
+
+    .copyright {
+        display: block;
+    }
+
+    .copyright p {
+        margin-top: 14px;
+    }
            
 }

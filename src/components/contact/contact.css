@@ -53,6 +53,7 @@ form input::after {
     background-color: #FDC53D;
     cursor: pointer;
     margin-top: 16px;
+    color: black;
 }
 
 .button-contact button:hover {
@@ -75,6 +76,11 @@ form input:nth-of-type(2) {
     padding-left: 8px;
 }
 
+form input:nth-of-type(3) {
+    width: 132px;
+}
+
+
 .contact-form {
     display: flex;
     flex-direction: row;
@@ -85,8 +91,11 @@ form input:nth-of-type(2) {
     margin-top: 14px;
 }
 
-.contact-form label {
+.contact-form p {
     margin-left: 12px;
+    margin-top: 12px;
+    font-size: 18px;
+    
 }
 
 .contact-page {
@@ -126,5 +135,12 @@ form input:nth-of-type(2) {
     .contact-form input {
         width: 80px;
     }
+
+
+    .pro {
+        margin-top: 16px;
+    }
+
+  
            
 }
