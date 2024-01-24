@@ -16,6 +16,7 @@ form {
 form label {
     font-size: 22px;
     margin-top: 14px;
+    width: 200px;
 }
 
 form input {
@@ -125,6 +126,7 @@ form input:nth-of-type(3) {
 @media screen and (max-width: 768px) {
     .contact-page {
         display: block;
+        margin-left: 12px;
     }
 
     .contact-main {
@@ -144,8 +146,21 @@ form input:nth-of-type(3) {
     .pro {
         margin-top: 16px;
     }
+
+    .pro h4 {
+        font-size: 26px;
+    }
+
+    .pro p {
+        font-size: 18px;
+    }
+
     form input:nth-of-type(3) {
         width: 132px;
+    }
+
+    form label {
+        font-size: 18px;
     }
   
            

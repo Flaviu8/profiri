@@ -152,11 +152,11 @@
     }
 
     .colors-after h1 {
-        font-size: 38px;
+        font-size: 32px;
         background-color: transparent;
         padding-top: 18px;
         font-weight: 300;
-        width: 400px;
+        width: 300px;
         color: black;
         margin-left: 14px;
     }
@@ -164,11 +164,10 @@
     .colors-after h2 {
         background-color: transparent;
         padding-top: 8px;
-        font-weight: 300;
-        width: 400px;
-        color: black;
+        font-weight: 200;
+        width: 280px;
         margin-left: 14px;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .colors-after button {

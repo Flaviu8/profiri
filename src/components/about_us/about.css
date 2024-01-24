@@ -121,10 +121,20 @@
 
  .about p {
     width: 98%;
+    font-size: 18px;
+ }
+
+ .about h4 {
+    font-size: 28px;
+ }
+
+ .abouts h4 {
+    font-size: 28px;
  }
 
  .abouts p {
     width: 98%;
+    font-size: 18px;
  }
 
  .abouts img {
@@ -147,6 +157,10 @@
 
 .expect {
     display: block;
+}
+
+.title h3 {
+    font-size: 28px;
 }
     
   }

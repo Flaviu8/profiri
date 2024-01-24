@@ -102,10 +102,14 @@ footer  {
 
     .copyright {
         display: block;
+        margin-left: 12px;
     }
 
     .copyright p {
         margin-top: 14px;
+        font-size: 18px;
     }
-           
+       .footer-content {
+        margin-left: 12px;
+       }    
 }
