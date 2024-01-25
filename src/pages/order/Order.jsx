@@ -1,11 +1,19 @@
 import './order.css'
 import { useForm, ValidationError } from '@formspree/react';
+import {Helmet} from "react-helmet";
+ 
 
 export default function Order() {
     const [state, handleSubmit] = useForm("xeqyekwl");
 
   return (
+    
     <div className='contact-main'>
+          <Helmet>
+                <meta charSet="utf-8" />
+                <h1>Profiri-Trimite o comandă</h1>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
          <div className='title'>
                 <h1>Trimite cerere</h1>
         </div>

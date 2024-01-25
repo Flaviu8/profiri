@@ -1,8 +1,15 @@
 import './terms.css'
+import {Helmet} from "react-helmet";
+
 
 export default function Terms() {
   return (
     <div className='terms'>
+             <Helmet>
+                <meta charSet="utf-8" />
+                <h1>ProFiri - Termeni și condiții</h1>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
         <div className='title'>
             <h1>TERMENI ȘI CONDIȚII</h1>
             <p>Această Politică de Confidențialitate descrie modul în care ProFiri (Site-ul, "noi", sau "al nostru") colectează, utilizează și dezvăluie informațiile dvs. personale atunci când vizitați, utilizați serviciile noastre sau faceți o achiziție de pe profiri.com (Site) sau comunicați cu noi în orice alt mod (colectiv, Serviciile). În scopul acestei Politici de Confidențialitate, cuvintele "dvs." și "ale dvs." se referă la dvs. ca utilizator al Serviciilor, fie că sunteți client, vizitator al site-ului sau altă persoană al cărei informații le-am colectat în conformitate cu această Politică de Confidențialitate.
