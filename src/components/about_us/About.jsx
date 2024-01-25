@@ -16,7 +16,7 @@ export default function About() {
                 </div>
                 <div className='text'>
                     <h4>Misiunea noastră</h4>
-                    <p>Suntem o companie care dispune de un serviciu de logo design dedicat care are datoria să respecte cerințele și așteptările fiecărui client. Noi suntem de părere că un design perfect poate aduce un beneficiu semnificativ companiei tale și să ne asigurăm că îți atingi scopurile.</p>
+                    <p>Suntem o companie care dispune de un serviciu de logo design dedicat care are datoria să respecte cerințele și așteptările fiecărui client. Noi suntem de părere că un design perfect poate aduce un beneficiu semnificativ companiei tale și dorim să ne asigurăm că îți atingi scopurile.</p>
                 </div>
                 
             </div>
