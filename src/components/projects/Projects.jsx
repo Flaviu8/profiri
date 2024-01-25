@@ -43,18 +43,18 @@ export default function Projects() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={sosa} alt='sosa' /></SwiperSlide>
-        <SwiperSlide><img src={sushi} alt='sushi' /></SwiperSlide>
-        <SwiperSlide><img src={panday} alt='panday' /></SwiperSlide>
-        <SwiperSlide><img src={brochures} alt='brochures' /></SwiperSlide>
-        <SwiperSlide><img src={meem} alt='meem' /></SwiperSlide>
-        <SwiperSlide><img src={insta} alt='insta' /></SwiperSlide>
-        <SwiperSlide><img src={broch1} alt='broch1' /></SwiperSlide>
-        <SwiperSlide><img src={broch2} alt='broch2' /></SwiperSlide>
-        <SwiperSlide><img src={broch3} alt='broch3' /></SwiperSlide>
-        <SwiperSlide><img src={broch4} alt='broch4' /></SwiperSlide>
-        <SwiperSlide><img src={marketing} alt='marketing' /></SwiperSlide>
-        <SwiperSlide><img src={real} alt='real' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={sosa} alt='sosa' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={sushi} alt='sushi' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={panday} alt='panday' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={brochures} alt='brochures' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={meem} alt='meem' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={insta} alt='insta' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={broch1} alt='broch1' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={broch2} alt='broch2' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={broch3} alt='broch3' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={broch4} alt='broch4' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy' src={marketing} alt='marketing' /></SwiperSlide>
+        <SwiperSlide><img loading='lazy'src={real} alt='real' /></SwiperSlide>
       </Swiper>
     </div>
   );

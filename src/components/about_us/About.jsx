@@ -12,7 +12,7 @@ export default function About() {
             </div>
             <div className='about'>
                 <div>
-                    <img src={sosa} alt="sosa" />
+                    <img loading='lazy' src={sosa} alt="sosa" />
                 </div>
                 <div className='text'>
                     <h4>Misiunea noastră</h4>
@@ -27,7 +27,7 @@ export default function About() {
                     <p>Colaborăm cu fiecare client în parte pentru fiecare proces și dorim să înțelegem fiecare brand, audiență sau scop. Echipa noastră este creată din designeri experimentați și este dedicată să creeze design personalizat pentru fiecare client.</p>
                 </div>
                 <div>
-                    <img src={panday} alt="panday" />
+                    <img loading='lazy' src={panday} alt="panday" />
                 </div>
                 <div className='text expect'>
                     <h4>Așteptările noastre</h4>
@@ -36,7 +36,7 @@ export default function About() {
             </div>
             <div className='about'>
                 <div>
-                    <img src={flyer} alt="flyer" />
+                    <img loading='lazy' src={flyer} alt="flyer" />
                 </div>
                 <div className='text'>
                     <h4>Experiența noastră</h4>
