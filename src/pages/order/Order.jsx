@@ -11,7 +11,7 @@ export default function Order() {
     <div className='contact-main'>
           <Helmet>
                 <meta charSet="utf-8" />
-                <h1>Profiri-Trimite o comandă</h1>
+                <title>Profiri-Trimite o comandă</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
          <div className='title'>

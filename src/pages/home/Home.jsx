@@ -13,7 +13,7 @@ export default function Home() {
     <>
     <Helmet>
                 <meta charSet="utf-8" />
-                <h1>Profiri- Designul vorbește de la sine</h1>
+                <title>Profiri- Designul vorbește de la sine</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
         <Header />

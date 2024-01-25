@@ -7,7 +7,7 @@ export default function Terms() {
     <div className='terms'>
              <Helmet>
                 <meta charSet="utf-8" />
-                <h1>ProFiri - Termeni și condiții</h1>
+                <title>ProFiri - Termeni și condiții</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
         <div className='title'>
