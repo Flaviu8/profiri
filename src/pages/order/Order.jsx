@@ -12,7 +12,8 @@ export default function Order() {
           <Helmet>
                 <meta charSet="utf-8" />
                 <title>Profiri-Trimite o comandă</title>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Comandă acum folosind formularul nostru." />
+                <link rel="canonical" href="/order" />
             </Helmet>
          <div className='title'>
                 <h1>Trimite cerere</h1>

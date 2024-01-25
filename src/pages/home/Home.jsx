@@ -16,7 +16,7 @@ export default function Home() {
                 <title>Profiri- Designul vorbește de la sine</title>
                 <meta name="description" content="Suntem o companie care dispune de un serviciu de logo design dedicat care are datoria să respecte cerințele și așteptările fiecărui client." />
                 <meta name="keywords" content="personalizare tricouri social media ads personalizare hanorace pliante logoouri personalizate pliante personalizate brosuri logo personalizat"/>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="/" />
             </Helmet>
         <Header />
         <About />
