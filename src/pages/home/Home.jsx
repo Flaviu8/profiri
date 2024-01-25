@@ -14,6 +14,7 @@ export default function Home() {
     <Helmet>
                 <meta charSet="utf-8" />
                 <title>Profiri- Designul vorbește de la sine</title>
+                <meta name="description" content="Suntem o companie care dispune de un serviciu de logo design dedicat care are datoria să respecte cerințele și așteptările fiecărui client." />
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
         <Header />
